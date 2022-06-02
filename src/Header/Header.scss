@@ -1,0 +1,13 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    ul {
+        display: flex;
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
