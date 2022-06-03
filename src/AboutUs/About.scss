@@ -1,0 +1,31 @@
+.about-container {
+    margin-top: 40px;
+
+    h2 {
+        color: #474747;
+    }
+}
+
+
+.spacer {
+    display: flex;
+
+    .horizontal {
+        width: 100px;
+        height: 5px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(83, 202, 245, 0.8) 0%, rgba(217, 217, 217, 0) 100%);
+    }
+}
+
+.spacer-long {
+    .horizontal {
+        width: 600px;
+    }
+}
+
+.about-main {
+    p {
+        color: #474747;
+    }
+}
+
