@@ -4,11 +4,22 @@
     h2 {
         color: #474747;
     }
+
+    .banner-hero {
+        background: url("./assets/images/happy-parents-laughing-together-with-daughter.jpg");
+        height: 214.86px;
+        background-size: cover;
+        background-position: center -130px;
+        background-repeat: no-repeat;
+    }
 }
 
 
 .spacer {
     display: flex;
+    align-items: center;
+    margin: auto;
+    width: max-content;
 
     .horizontal {
         width: 100px;
@@ -24,8 +35,28 @@
 }
 
 .about-main {
-    p {
+    background: url("./assets/images/amanda-marie-xgn822lnt4Q-unsplash\ \(1\).jpg");
+    .quote {
         color: #474747;
+    }
+
+    .cards {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        & > div {
+            width: 50%;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            background-color: white;
+        }
+    }
+
+    .horizontal-partition {
+        height: 153.33px;
+        background: rgba(0, 0, 0, 0.8);
     }
 }
 
