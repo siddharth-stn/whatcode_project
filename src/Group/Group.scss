@@ -1,0 +1,43 @@
+.group-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+
+    & > div {
+        flex: 1;
+        height: 300px;
+
+        & > div {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            border-radius: 10px;
+        }
+    }
+}
+
+.agri {
+    .image {
+        background-image: url("./assets/images/adele-payman-2oYMwuFgnTg-unsplash.jpg");
+        
+    }
+}
+
+.fossil {
+    .image {
+        background-image: url("./assets/images/paul-einerhand-iRqUgXM-gj0-unsplash.jpg");
+    }
+}
+
+.foods {
+    .image {
+        background-image: url("./assets/images/justus-menke-rN3W0kwlETE-unsplash.jpg");
+    }
+}
